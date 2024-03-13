@@ -289,3 +289,114 @@ header .menu-btn{
   line-height: 15.694vw;
   font-size: 4.444vw;
 }
+/* shop-area */
+.shop-area{
+  padding: 8.33vw 4.44vw;
+}
+.shop-area-title{
+  font-weight: 500;
+  color: #00a1df;
+  font-size: 8.611vw;
+  line-height: 1.15;
+  text-align: center;
+}
+.shop-area-title-sub{
+  text-align: center;
+  color: #666;
+  font-size: 4.861vw;
+  margin: 9.0277vw 0 8.75vw;  
+}
+.shop-list{
+  padding: 7.777vw 9.722vw 6.666vw;
+}
+.shop-area dt{
+  color: #fff;
+  font-size: 5.138vw;
+  background-color: #afafaf;
+  width: 34.444vw;
+  height: 7.777vw;
+  line-height: 7.777vw;
+  text-align: center;
+  margin-bottom: 5.833vw;
+}
+.shop-list dd{
+  font-size: 4.306vw;
+  display: inline-block;
+  margin-right: 4.444vw;
+  position: relative;
+}
+.shop-list dd:after{
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #666;
+  right: -2.222vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shop-list dd:last-of-type{
+  margin-right: 0;
+}
+.shop-list dd:last-of-type:after{
+  display: none;
+}
+.opening-hours{
+  padding: 9.166vw 9.722vw 10.555vw 10vw;
+}
+.opening-hours dt{
+  width: 22.5vw;
+}
+.opening-hours dd{
+  font-size: 3.333vw;
+  color: #666;
+  margin-bottom: 1.944vw;
+  line-height: 1;
+}
+.opening-hours dd span.day{
+  font-weight: 500;
+  position: relative;
+  padding-right: 3.333vw;
+  margin-right: 3.333vw;
+}
+.opening-hours dd span.day:after{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 3.333vw;
+  background-color: #666;
+}
+.opening-hours dd span.time{
+  font-weight: 400;
+}
+.shop-search-btn{
+  width: 46.94vw;
+  height: 15.83vw;
+  line-height: 15.83vw;
+  color: #fff;
+  background-color: #00a1df;
+  margin: 0 auto 13.88vw;
+  text-align: center;
+  font-size: 4.444vw;
+}
+.shop-list-box{
+  margin: 0 3.888vw;
+}
+.shop-list-box li{
+  position: relative;
+}
+.shop-list-box li img{
+  width: 100%;
+}
+.shop-list-box li .shop-list-title{
+  position: absolute;
+  top: 2.5vw;
+  right: 2.777vw;
+  background-color: #00a1df;
+  color: #fff;
+  font-size: 2.777vw;
+  padding: 1.388vw 2.222vw;
+}
