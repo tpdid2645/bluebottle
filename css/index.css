@@ -207,3 +207,85 @@ header .menu-btn{
   margin-top: 3.888vw;
   margin-left: 6.666vw;
 }
+.best-menu-area .best-menu-box{
+  background-color: #fff;
+  margin-top: 4.722vw;
+}
+.best-menu-area .best-menu-box .best-list img{
+  width: 100%;
+}
+.best-menu-area .best-list .best-menu-txt{
+  display: block;
+  padding: 4.583vw 8.75vw;
+  background-color: #ffffff;
+}
+.best-menu-txt .best-menu-des1,
+.best-menu-txt .best-menu-des2{
+  display: block;
+}
+.best-menu-txt .best-menu-des1{
+  color: #4b4e54;
+  font-size: 5.555vw;
+  font-weight: 500;
+}
+.best-menu-txt .best-menu-des2{
+  color: #606367;
+  font-size: 3.333vw;
+  margin-top: 4.444vw;
+  line-height: 1.5;
+  word-wrap: keep-all;
+}
+.best-list-pager{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.444vw;
+  margin-top: 6.944vw;
+}
+.best-list-pager span{
+  width: 4.167vw;
+  height: 4.167vw;
+  border-radius: 50%;
+  background-color: #ddd;
+  font-size: 0;
+  cursor: pointer;
+}
+.best-list-pager span.active{
+  background-color: #fff;
+}
+.match-area{
+  background-color: #242424;
+  padding: 9.777vw 4.444vw;
+}
+.match-area .match-box{
+  background-color: #fff;
+}
+.match-area .match-box img{
+  width: 100%;
+}
+.match-box .match-txt-box{
+  padding-top: 15.277vw;
+  padding-bottom: 9.027vw;
+  text-align: center;
+}
+.match-box .match-txt-box .match-title{
+  font-weight: 300;
+  color: #575756;
+  font-size: 10.277vw;
+}
+.match-box .match-txt-box .match-txt{
+  color: #575756;
+  font-size: 3.66vw;
+  margin-top: 8.333vw;
+  margin-bottom: 11.666vw;
+}
+.match-box .match-txt-box .match-quiz-btn{
+  display: block;
+  margin: auto;
+  width: 46.944vw;
+  height: 15.694vw;
+  background-color: #1da4d9;
+  color: #fff;
+  line-height: 15.694vw;
+  font-size: 4.444vw;
+}
